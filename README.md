@@ -2,7 +2,7 @@
 GrowSkill is a e-learning platform for women
 
 # A summary about my work
-In this projects, I am trying to explain the step-to-step process of an user who visits the website. Some annotations are used for relation mapping and to get automatic getter and setters for attributes. We can create APIs by dividing problem into sub problems like we can write controllers in controller layer, logic in service layer and database in repository layer.
+In this projects, I am trying to explain the step-to-step process of an user who visits the website. Some annotations are used for relation mapping and to get automatic getter and setters for attributes. I have create APIs by dividing into different layers like we can write controllers in controller layer, logic in service layer and database in repository layer.
 By some annotations, we can perform CRUD operation like
 For getting all course, we can use @GetMapping
 For enrollment in course, we can use @Postmapping
