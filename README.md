@@ -12,7 +12,7 @@ and so on........
 
 # For proper implementation and clarification, please check out models/entities
 
-*User Journey
+#User Journey
 
 Steps are:-
 1. If the user is already registered on the website then he/she can log in to their account using the registered email and password,
@@ -28,7 +28,8 @@ Steps are:-
 
 
 
-*Models with constraints and datatypes
+#Models with constraints and datatypes
+
 Note:- Below are not proper implementation, just an idea is given below
 
 1. User {
@@ -84,10 +85,11 @@ Note:- Below are not proper implementation, just an idea is given below
            }
 
 7. Recording {
-                       RecordingId(int)(Unique and Auto Generated),
-                       ClassId(int)
-                   }
-8. Certificate {
+                 RecordingId(int)(Unique and Auto Generated),
+                 ClassId(int)
+            }
+   
+9. Certificate {
                   CertificateID(int)(Unique and Auto Generated),
                   UserID(int),
                   UserName(String)
@@ -99,7 +101,7 @@ Note:- Below are not proper implementation, just an idea is given below
 
 
 
-*Relationships
+#Relationships
 
 1. User-Course (One-to-many) //Because User can enroll in multiple courses
 2. Instructor-Course (One-to-many) // One instructor is assigned to multiple courses like one instructor is assigned to all baking courses (like Beginner Makeup Course, Advance Makeup Course)
@@ -119,7 +121,7 @@ Note:- For establishing relation between entities, mapping annotations are used 
 
 
 
-*Queries that are fired at each steps.
+#Queries that are fired at each steps.
 
 Note:- On practical implementation, these(users,courses,classes,instructors,enrollments,payments,recordings,certificates) tables are created in database.
 1. For User registration
